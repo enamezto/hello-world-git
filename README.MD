@@ -101,3 +101,11 @@ Esto es otro texto dividido por asteriscos.
 Esto es otro texto dividido por guiones bajos.
 
 ___
+
+# Saltos de linea
+Esto es nuestro primer parrafo.
+
+Esto es nuestro segundo parrafo.
+
+Esto es nuestro tercer parrafo.
+- Esto es una lista que no necesitamos hacer un salto de linea para que despues haga el salto de linea.
