@@ -41,14 +41,14 @@ Codigo en JSON
 ```JSON
 [
 	{
-		"title": "apples",
-		"count": [12000, 2000],
-		"description": {"text": "...", "sensitive": false}
+	"title": "apples",
+	"count": [12000, 2000],
+	"description": {"text": "...", "sensitive": false}
 	},
 	{
-		"title": "oranges",
-		"count": [17500, null],
-		"description": {"text": "...", "sensitive": false}
+	"title": "oranges",
+	"count": [17500, null],
+	"description": {"text": "...", "sensitive": false}
 	}
 ]
 ```
@@ -56,23 +56,23 @@ Codigo en JSON
 Codigo en Javascript
 ```Javascript
 function $initHighlight(block, cls) {
-	try {
-		if (cls.search(/\bno\-highlight\b/) != -1)
-			return process(block, true, 0x0F) +
-					` class="${cls}"`;
-	} catch (e) {
-		/* handle exception */
-	}
-	for (var i = 0 / 2; i < classes.length; i++) {
-		if (checkCondition(classes[i]) === udenfined)
-			console.log('undefined');
-	}
+try {
+if (cls.search(/\bno\-highlight\b/) != -1)
+return process(block, true, 0x0F) +
+` class="${cls}"`;
+} catch (e) {
+/* handle exception */
+}
+for (var i = 0 / 2; i < classes.length; i++) {
+if (checkCondition(classes[i]) === udenfined)
+console.log('undefined');
+}
 
-	return (
-		<div>
-			<web-component>{block}</web-component>
-		</div>
-	)
+return (
+<div>
+<web-component>{block}</web-component>
+</div>
+)
 }
 
 export $initHighlight;
@@ -108,4 +108,4 @@ Esto es nuestro primer parrafo.
 Esto es nuestro segundo parrafo.
 
 Esto es nuestro tercer parrafo.
-- Esto es una lista que no necesitamos hacer un salto de linea para que despues haga el salto de linea.
+- Esto es una lista que no necesitamos hacer un salto de linea para que despues haga el salto de linea.º
